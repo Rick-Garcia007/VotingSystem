@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">  
+    <div class="card-body" > 
+        <h1> Bem-vindo ao Poll Mall!</h1>
+    <p>Este é meu primeiro Django
+        Projeto depois de muito tempo!</p>
+    <a class="btn btn-dark" href = "{% url 'polls:index' %}"> 
+        Veja as enquetes disponíveis! </a>   
+    </div>
+</div>
+{% endblock %}
